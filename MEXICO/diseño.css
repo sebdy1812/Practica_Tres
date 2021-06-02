@@ -1,0 +1,57 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.content
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mexico
+{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: perspective(500px) rotateY(0);
+    transition: 1s;
+}
+.mexico:hover
+{
+    transform: perspective(500px) rotateY(180deg);
+    cursor: pointer;
+}
+.blanco img
+{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colores
+{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verde
+{
+background: green;
+}
+.blanco
+{
+    background: white;
+}
+.rojo
+{
+    background: red;
+}
